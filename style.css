@@ -14,6 +14,9 @@ a{
 img{
     max-width:100%;
 }
+button{
+    cursor: pointer;
+}
 .bottom-line{
     border-bottom:3px solid black;
     width:20%;
@@ -327,6 +330,7 @@ hr {
     background-color: transparent;
     border-bottom: 1px solid gray;
     font-size:1em;
+    color:white;
 }
 .contact-form button{
     width: max-content;
@@ -368,10 +372,13 @@ footer a{
     }
     .obw-container{
         display:grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template: 
-        'obw-photo-1' 'obw-photo-2' 'obw-photo-3'
-        'obw-photo-4' 'obw-photo-5' 'obw-photo-6'/auto ;
+        'obw-photo-1 obw-photo-2'
+        'obw-photo-4 obw-photo-2'
+        'obw-photo-4 obw-photo-3'
+        'obw-photo-5 obw-photo-6'
+        '.           obw-photo-6';
         grid-gap:20px;
         width: 100%;
     }
