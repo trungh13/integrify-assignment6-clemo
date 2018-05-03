@@ -87,6 +87,7 @@ header{
     width: 100%;
     background: white;
     top: 0;
+    z-index: 69;
 }
 .navigation img{
     height:20px;
@@ -144,6 +145,16 @@ hr {
 }
 .header-featured-post{
     padding: 150px 0px;
+}
+.header-featured-post-selector i {
+    transform: rotate(45deg);
+    padding:0px 10px;
+}
+.header-featured-post-selector {
+    position: absolute;
+    right: 0;
+    transform: rotate(90deg);
+    top: 50%;
 }
 .what-we-do{
     background-color:#f9f9f9;
@@ -243,6 +254,13 @@ hr {
 .team-member hr{
     width:20%;
 }
+.bt-selector i {
+    transform: rotate(45deg);
+    padding:0px 10px;
+}
+.bt-selector{
+    text-align:center;
+}
 .cs-container{
     display:grid;
     grid-template: 
@@ -252,6 +270,9 @@ hr {
 }
 .cs-container p{
     margin:0;
+}
+.cs-selector{
+    text-align:center;
 }
 .client-contact{
     grid-area:client-contact;
