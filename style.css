@@ -359,6 +359,9 @@ footer a{
     color:#f9c68b;
 }
 @media only screen and (max-width: 750px) {
+    nav a{
+        padding:0px 5px;
+    }
     .wwd-container{
         display:grid;
         grid-template-columns: 1fr;
@@ -369,6 +372,11 @@ footer a{
     }
     .wwd-content-1,.wwd-content-2,.wwd-content-3{
         padding:0;
+    }
+    .header-featured-post-selector {
+        position: relative;
+        transform: rotate(0deg);
+        padding-bottom:20px;
     }
     .obw-container{
         display:grid;
